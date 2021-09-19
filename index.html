@@ -8,6 +8,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
   <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
   
@@ -18,7 +19,7 @@
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-md navbar-light py-5  ">
+<nav class="navbar navbar-expand-md navbar-light py-5 fixed-top  bg-white ">
   <div class="container-md px-xl-5">
     <a href="#" class="navbar-brand"><img src="images/logo-bookmark.svg"></a>
 
@@ -52,7 +53,42 @@
 
 <!--   hero section       -->
 
-
+<section
+class=" text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start hero-sec"
+>
+<div class="container-md">
+  <div class="hero text-start">
+    <div >
+      <h1 class="hero-heading"> A Simple Bookmark Manager </h1>
+      <p class="lead hero-para my-4">
+        A clean and simple interface to organize your favourite websites. Open a new 
+        browser tab and see your sites load instantly. Try it for free.
+      </p>
+      <button
+        class="btn chrome btn-primary p-2 btn-lg"
+        data-bs-toggle="modal"
+        data-bs-target="#chrome"
+      >
+      Get It On Chrome
+      </button>
+      <button
+      class="btn firefox btn-lg p-2"
+      data-bs-toggle="modal"
+      data-bs-target="#firefox"
+    >
+    Get It On Firefox
+    </button>
+    </div>
+    <div class="background">
+    </div>
+    <img
+      class=" hero-image   p-5"
+      src="images/illustration-hero.svg"
+      alt=""
+    />
+  </div>
+</div>
+</section>
 
 
 

@@ -19,7 +19,7 @@
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-md navbar-light py-5 fixed-top  bg-white ">
+<nav class="navbar navbar-expand-md navbar-light pt-5 pb-3 fixed-top  bg-white ">
   <div class="container-md px-xl-5">
     <a href="#" class="navbar-brand"><img src="images/logo-bookmark.svg"></a>
 
@@ -79,7 +79,7 @@ class=" text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start hero-sec"
     Get It On Firefox
     </button>
     </div>
-    <div class="background">
+    <div class="blue-background">
     </div>
     <img
       class=" hero-image   p-5"
@@ -91,13 +91,143 @@ class=" text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start hero-sec"
 </section>
 
 
+<!--   section-2   -->
+
+<section id="features" class="mt-5">
+  <div class="container p-5 d-flex justify-content-center align-items-center flex-column ">
+    <h2 class="text-center feature-heading">features</h2>
+     <p class="lead text-center mx-auto my-4  feature-info ">
+      Our aim is to make it quick and easy for you to access your favourite websites.  
+      Your bookmarks sync between your devices so you can access them on the go.
+     </p>
 
 
+    <ul class="nav nav-tabs d-flex justify-content-center pt-5" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link px-5   tobo active" id="booking-tab" data-bs-toggle="tab" data-bs-target="#booking" type="button" role="tab" aria-controls="booking" aria-selected="true"> Simple Bookmarking</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link px-5 tobo"  id="speedy-tab" data-bs-toggle="tab" data-bs-target="#speedy" type="button" role="tab" aria-controls="speedy" aria-selected="false">Speedy Searching</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link px-5 tobo"  id="easy-search-tab" data-bs-toggle="tab" data-bs-target="#easy-search" type="button" role="tab" aria-controls="easy-search" aria-selected="false">Easy Searching</button>
+      </li>
+    </ul>
+    <div class="tab-content no-active" id="myTabContent">
+      <div class="tab-pane fade show active" id="booking" role="tabpanel" aria-labelledby="booking-tab">
+        <div class="container-md">
+          <div class="tab d-md-flex justify-content-center align-items-center ">
+            <div id="#blucapsule2"></div>
+
+            <img
+              class=" tab-image   p-5"
+              src="images/illustration-features-tab-1.svg"
+              alt=""
+            />
+            <div >
+              <h1 class="tab-heading">Bookmark in one click</h1>
+              <p class="lead tab-para my-4">
+                Organize your bookmarks however you like. Our simple drag-and-drop interface 
+                 gives you complete control over how you manage your favourite sites.
+              </p>
+              <button
+                class="btn more-info btn-primary p-2 btn-lg"
+                data-bs-toggle="modal"
+                data-bs-target="#"
+              >
+              More Info
+              </button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="speedy" role="tabpanel" aria-labelledby="speedy-tab">
+        <div class="container-md">
+          <div class="tab d-md-flex justify-content-center align-items-center ">
+            <div id="#blucapsule2"></div>
+
+            <img
+              class=" tab-image   p-5"
+              src="images/illustration-features-tab-2.svg"
+              alt=""
+            />
+            <div >
+              <h1 class="tab-heading">  Intelligent search</h1>
+              <p class="lead tab-para my-4">
+                Our powerful search feature will help you find saved sites in no time at all. 
+                No need to trawl through all of your bookmarks.
+              </p>
+              <button
+                class="btn more-info btn-primary p-2 btn-lg"
+                data-bs-toggle="modal"
+                data-bs-target="#"
+              >
+              More Info
+              </button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="easy-search" role="tabpanel" aria-labelledby="easy-search-tab">
+        <div class="container-md">
+          <div class="tab d-md-flex justify-content-center align-items-center ">
+            <div id="#blucapsule2"></div>
+
+            <img
+              class=" tab-image   p-5"
+              src="images/illustration-features-tab-3.svg"
+              alt=""
+            />
+            <div >
+              <h1 class="tab-heading">Share your bookmarks</h1>
+              <p class="lead tab-para my-4">
+                Easily share your bookmarks and collections with others. Create a shareable 
+                link that you can send at the click of a button.
+              </p>
+              <button
+                class="btn more-info btn-primary p-2 btn-lg"
+                data-bs-toggle="modal"
+                data-bs-target="#"
+              >
+              More Info
+              </button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
 
 
+<!--   section 3    -->
 
-
-
+    <section class="mt-5" id="pricing">
+      <div class="container p-5 d-flex justify-content-center align-items-center flex-column ">
+        <h2 class="text-center download-heading">Download The Extension</h2>
+         <p class="lead text-center mx-auto my-4  download-info ">
+          We’ve got more browsers in the pipeline. Please do let us know if you’ve 
+           got a favourite you’d like us to prioritize.
+         </p>
+         <!-- <div class="container mt-4">
+           <div class="row">
+             <div class="col-md-3  ">
+              <div class="card" >
+                <img src="images/logo-chrome.svg" class="mx-auto  chrome-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Add To Chrome</h5>
+                  <p class="card-text">Minimum version 62</p>
+                  <a href="#" class="btn btn-primary">Download The Extension</a>
+                </div>
+              </div>
+             </div>
+           </div>
+         </div> -->
+    </section>
 
 
 

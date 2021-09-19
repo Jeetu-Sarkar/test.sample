@@ -87,31 +87,39 @@ body::before {
     max-width: 60% !important;
     height: auto;
 }
-.background{
+.blue-background{
     content: '';
-    width: 500px;
-    height: 250px;
+    width: 600px;
+    height: 300px;
     background-color: hsl(231, 69%, 60%);
     border-radius: 100px 0 0 100px;
     position: absolute;
     right: 0%;
-    top: 60%;
+    top: 50%;
     align-items: flex-end;
     z-index: -10;
 }
+@media screen and (max-width:1440px){
+    .blue-background{
+        top: 35%;
+        width: 600px;
+        height: 300px;
+    }
+}
+
 @media screen and (max-width:1024px) {
-    .background{
-        width: 400px;
-        height: 230px ;
-        top: 48%;
+    .blue-background{
+        width: 350px;
+        height: 300px ;
+        top: 28%;
     }
 }
 
 @media screen and (max-width:768px){
-    .background{
+    .blue-background{
         width: 300px;
         height: 150px;
-        top: 50%;
+        top: 38%;
     }
     .hero-image{
         padding: 0px !important;
@@ -160,7 +168,7 @@ body::before {
         max-width: 80% !important;
         margin-left: 80px !important;
     }
-    .background{
+    .blue-background{
         top: 40%;
     }
     .navbar{
@@ -173,7 +181,7 @@ body::before {
         max-width: 80% !important;
         margin-left: 40px !important;
     }
-    .background{
+    .blue-background{
         top: 35%;
         width: 250px;
     }
@@ -184,7 +192,7 @@ body::before {
         max-width: 80% !important;
         margin-left: 40px !important;
     }
-    .background{
+    .blue-background{
         top: 30%;
         width: 250px;
     }
@@ -192,3 +200,139 @@ body::before {
 
 
 /*    section-2   */
+
+    .feature-heading{
+        color: hsl(229, 31%, 21%);
+    font-weight: 500;
+    }
+
+
+    .feature-info{
+        width: 500px;
+        color:hsl(229, 8%, 60%) ;
+        font-weight: 400;
+        font-size: 18px;
+    }
+    @media screen and (max-width:500px) {
+        .feature-info{
+            width: 400px;
+        }
+    }
+    @media screen and (max-width:425px) {
+        .feature-info{
+            width: 350px;
+            font-size: 16px;
+        }
+    }  @media screen and (max-width:375px) {
+        .feature-info{
+            width: 300px;
+            margin: auto 0px;
+            font-size: 14px;
+        }
+    }
+
+
+    .tobo{
+        color:hsl(229, 8%, 60%);
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .active{
+        border-bottom: 3px solid hsl(0, 94%, 66%) !important;
+        color:  hsl(229, 31%, 21%) ;
+    }
+    .tobo:hover{
+        color: hsl(0, 94%, 66%) !important;
+    }
+    
+    /*   tab     */
+    .tab{
+        z-index: 10;
+    }
+    .tab-heading{
+        color:hsl(229, 31%, 21%);
+        font-weight: 500;
+    }
+    .tab-para{
+        color: hsl(229, 8%, 60%);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 31px;
+    }
+    .more-info{
+        font-size: 14px !important;
+        font-weight: 500;
+        background-color: hsl(231, 69%, 60%) ;
+        border: 2px solid  hsl(231, 69%, 60%);
+        margin-bottom: 15px;
+    }
+    .more-info:hover{
+        color: hsl(231, 69%, 60%);
+        border: 2px solid hsl(231, 69%, 60%);
+        background-color: #fff;
+    }
+    .tab-image{
+        max-width: 100% !important;
+        height: auto;
+        padding-left: 0px !important;
+    }
+
+     #blucapsule2{
+        position: absolute;
+        background-color: hsl(231, 69%, 60%);
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+        height: 350px;
+        width: 600px;
+        z-index: -10;
+    }
+    .no-active .active{
+        border-bottom: 0px !important;
+    }
+    @media screen and (max-width:768px){
+        .tab-image{
+            max-width: 60% !important;
+            height: auto;
+        }
+        .tobo{
+            padding: 10px 15px !important;
+        }
+        .tab-heading{
+            font-size: 25px !important;
+            padding-top:30px ;
+        }
+        .tab-para{
+            font-size: 16px !important;
+            line-height: 25px;
+            margin-top: 0px !important;
+        }
+    }
+    @media screen and (max-width:425px){
+        .tab-image{
+            max-width: 100% !important;
+            height: auto;
+        }
+
+
+        .tobo{
+            padding: 10px 48px !important;
+        }  
+    }    
+
+            /*    section 3  */
+
+    .download-heading{
+        color: hsl(229, 31%, 21%);
+        font-weight: 500;
+    }
+    .download-info{
+        width: 500px;
+        color:hsl(229, 8%, 60%) ;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .chrome-img{
+        width: 100px;
+        height: 100px;
+    }
